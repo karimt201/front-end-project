@@ -1,4 +1,17 @@
-h1{
+span{
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+
+div{
+    /* display: inline; */
+    border: 2px solid crimson;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* h1{
     color: orange;
     background-color: slategray;
     font-size: 20px;
@@ -24,4 +37,4 @@ ul{
 li{
     list-style-type: none;
     text-shadow: 2px 2px lightgray;
-}
+} */
