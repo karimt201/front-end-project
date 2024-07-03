@@ -9,4 +9,9 @@ h1{
 
 p{
     color: slategray;
+    text-align: right;
+    line-height: 20px;
+    letter-spacing: 2px;
+    column-count: 3;
+    column-gap: 50px;
 }
