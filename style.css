@@ -1,40 +1,11 @@
-span{
-    display: inline-block;
-    margin: 20px;
-    padding: 20px;
+p.error{
+    color: red;
 }
 
-div{
-    /* display: inline; */
-    border: 2px solid crimson;
-    margin: 20px;
-    padding: 20px;
+p.success{
+    color: green;
 }
 
-/* h1{
-    color: orange;
-    background-color: slategray;
-    font-size: 20px;
-    text-decoration: underline;
-    font-family: arial;
-    text-align: center;
+p.success.feedback{
+    border: 2px dashed green;
 }
-
-p{
-    color: slategray;
-    text-align: right;
-    line-height: 20px;
-    letter-spacing: 2px;
-    column-count: 3;
-    column-gap: 50px;
-}
-
-ul{
-    border-bottom: 4px dotted crimson;
-    border-left: 8px dashed #126801;
-}
-
-li{
-    list-style-type: none;
-    text-shadow: 2px 2px lightgray;
-} */
