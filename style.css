@@ -15,10 +15,29 @@ div#content{
     padding: 20px;
 } */
 
-div p{
+/* div p{
     color: purple;
 }
 
 div .error{
     color:rgb(2, 128, 150);
+} */
+
+
+/* should give it a link */
+a[href="https//:www.facebook.com"]{
+    color: rgb(0, 38, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+/* just one word in this link */
+a[href*="google"]{
+    color: white;
+    background-color: black;
+}
+
+/* the end of this link */
+a[href$=".asp"]{
+    color: red;
+    background-color: white;
 }
