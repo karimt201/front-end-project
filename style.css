@@ -25,19 +25,36 @@ div .error{
 
 
 /* should give it a link */
-a[href="https//:www.facebook.com"]{
+/* a[href="https//:www.facebook.com"]{
     color: rgb(0, 38, 255);
     background-color: rgb(255, 255, 255);
-}
+} */
 
 /* just one word in this link */
-a[href*="google"]{
+/* a[href*="google"]{
     color: white;
     background-color: black;
-}
+} */
 
 /* the end of this link */
-a[href$=".asp"]{
+/* a[href$=".asp"]{
     color: red;
     background-color: white;
+} */
+
+div{
+    color: lightcoral;
+    border: 1px solid grey;
+    margin: 40px;
+    font-weight: bold;
+}
+
+div p{
+    border: inherit;
+    margin: inherit;
+    color: green;
+}
+
+p{
+    color: blue;
 }
